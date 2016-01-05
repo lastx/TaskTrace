@@ -1,0 +1,30 @@
+<resources>
+
+    <string name="app_name">TaskTrace</string>
+    <string name="task_tip">Please press "Start." to start a task to trace!</string>
+    <string name="today">Today</string>
+    <string name="history">History</string>
+    <string name="tasks">Tasks</string>
+    <string name="title_activity_start_task">Task Trace</string>
+    <string name="start">Start.</string>
+    <string name="stop">Stop..</string>
+    <string name="end">Finish!!!</string>
+    <string name="choose_task">Choose a Task</string>
+    <string name="add_task">Add new Task</string>
+    <string name="input_task_name">Input the name of your new Task</string>
+    <string name="title_section2">Detail</string>
+    <string name="title_section1">Overall</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_one_day">OneDayActivity</string>
+
+    <string name="fragment_info_overall">Task | Range | Count | Overall</string>
+    <string name="fragment_info_detail">Task | Range | Overall</string>
+    <string name="fragment_info_history">Date | Range | Tasks| Events | Overall</string>
+    <string name="fragment_info_tasks">Task | Range | Events| Overall | State</string>
+
+    <string name="task_state_going">Going..</string>
+    <string name="task_state_finish">Finished</string>
+
+    <string name="finish_task_title">Finish this task?</string>
+    <string name="reopen_task_title">Reopen it??</string>
+</resources>

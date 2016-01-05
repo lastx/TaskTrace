@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/list_item_padding"
+    android:paddingTop="@dimen/list_item_padding" >
+
+    <TextView
+        android:id="@+id/daily_name"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/daily_range"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_weight="5"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/daily_task_count"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/daily_event_count"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/daily_last"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:singleLine="true" />
+
+</LinearLayout>

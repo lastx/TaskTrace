@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/list_item_padding"
+        android:layout_gravity="bottom"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/start_btn"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/start" />
+
+        <Button
+            android:id="@+id/pause_btn"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/stop" />
+
+        <Button
+            android:id="@+id/stop_btn"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/end" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/task_name"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/task_tip" />
+
+    <Chronometer
+        android:id="@+id/chronometer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:format="%s"
+        android:textSize="80dp" />
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/list_item_padding"
+        android:fastScrollEnabled="true" >
+    </ListView>
+
+</LinearLayout>
